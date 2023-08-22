@@ -4,7 +4,6 @@ const config={
     wURL:"https://api.openweathermap.org/data/2.5/",
     wKey:"291e49940a62ae68120d245089422d0e",
 };
-
 //get countries
 const getCountries=async(fieldName, ...args)=>{
     let apiEndPoint;
